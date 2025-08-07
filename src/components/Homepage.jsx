@@ -95,22 +95,80 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className="flex justify-between items-center my-10 w-full">
-          <div>
+        <div className="flex justify-center gap-10 items-center my-10 w-full">
+          <div className=" w-3/4">
             <img src="/images/aboutSc.png" alt="" />
           </div>
-          <div className="flex flex-col items-start">
-            <h3 className="text-[#171A1F] font-semibold">Collect Ideas</h3>
-            <p className="text-[#4E4E4E]">
-              Creating or improving products to meet our user needs.
-            </p>
-            <ul className="list-disc text-[#4E4E4E]">
+          <div className="flex flex-col items-start gap-8 w-3/4">
+            <div className="flex flex-col gap-5">
+              <h3 className="text-[#171A1F] font-semibold">Collect Ideas</h3>
+              <p className="text-[#4E4E4E] w-135">
+                With our Techty company, you can create landing pages that
+                convert more visitors than any other website. You can easily
+                create a page using a variety of unique blocks.
+              </p>
+            </div>
+            <ul className="list-disc text-[#4E4E4E] px-5">
               <li>We collect ideas from different design inspirations,</li>
               <li>Analysis data for any kind of corrections.</li>
               <li>Finalize the product for the production to be done.</li>
             </ul>
             <Button />
           </div>
+        </div>
+      </div>
+
+      <div className="flex items-center justify-betweem w-full bg-[#F0F8FF] h-[320px] px-10  ">
+        <div className="pr-10">
+          <h1 className="text-2xl font-bold">
+            {" "}
+            <span className="text-[#28D08A]">Unleash </span> businesses' full
+            potential
+          </h1>
+        </div>
+        <div className="flex flex-col items-start justify-center gap-3">
+          <img src="/images/iconTT.png" alt="" className="w-[80px] h-[80px]" />
+          <h3 className="font-semibold text-xl">SEO Team Expert</h3>
+          <p className="w-[85%]">
+            Creating products to meet our user needs and market demands.
+          </p>
+        </div>
+
+        <div className="flex flex-col items-start justify-center gap-3">
+          <img src="/images/iconO.png" alt="" className="w-[80px] h-[80px]" />
+          <h3 className="font-semibold text-xl">Strategic Planning</h3>
+          <p className="w-[85%]">
+            Improving products to meet our user needs and market demands.
+          </p>
+        </div>
+
+        <div className="flex flex-col items-start justify-center gap-3">
+          <img src="/images/iconT.png" alt="" className="w-[80px] h-[80px]" />
+          <h3 className="font-semibold text-xl">24/7 Live Support</h3>
+          <p className="w-[85%]">
+            We are ready to help you all day and our customer service are active
+          </p>
+        </div>
+      </div>
+
+      <div className="flex justify-center items-center gap-7 my-15 px-10">
+        <div className="flex flex-col w-1/2">
+          <h1 className="text-4xl font-bold pb-15">
+            Our most priority is to provide the effective{" "}
+            <span className="text-[#28D08A]">solutions.</span>
+          </h1>
+          <p className="pb-8 w-[80%]">
+            With a library full of thousands of templates to choose from, go
+            idea to launch in a matter of minutes. Try uploading your own for
+            sale.
+          </p>
+
+          <div className="flex gap-6">
+            <Button />
+          </div>
+        </div>
+        <div className="w-3/4">
+          <img src="/images/demoImg.png" alt="" />
         </div>
       </div>
     </section>
