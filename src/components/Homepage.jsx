@@ -104,7 +104,7 @@ const Homepage = () => {
             <p className="text-[#4E4E4E]">
               Creating or improving products to meet our user needs.
             </p>
-            <ul className="list-disc">
+            <ul className="list-disc text-[#4E4E4E]">
               <li>We collect ideas from different design inspirations,</li>
               <li>Analysis data for any kind of corrections.</li>
               <li>Finalize the product for the production to be done.</li>
