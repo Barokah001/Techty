@@ -171,6 +171,52 @@ const Homepage = () => {
           <img src="/images/demoImg.png" alt="" />
         </div>
       </div>
+
+      <div className="flex justify-center items-center bg-[#171A1F] text-white pt-10 pr-10">
+        <div>
+          <img src="/images/Rectangle.png" alt="" className="w-3/4" />
+        </div>
+        <div className="flex flex-col gap-6 items-start w-1/2">
+          <h1 className="text-4xl font-bold w-130">
+            Personalize your business{" "}
+            <span className="text-[#28D08A]">strategy</span> to reach out.
+          </h1>
+          <p className="w-130">
+            Our advisors approach each client individually, so each time we
+            select the appropriate insurance for your needs. Thanks to
+            conversation, we will adjust the appropriate cover.
+          </p>
+          <div className="flex justify-center items-center gap-5">
+            <div className="flex flex-col gap-6">
+              <h1 className="text-6xl font-semibold h-[60px]">91.1%</h1>
+              <p>Customer Satisfaction</p>
+            </div>
+            <div className="flex flex-col gap-6">
+              <h1 className="text-6xl font-semibold h-[60px]">4X</h1>
+              <p>New Visitors</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-6 bg-[#FFFFFF]">
+        <div className="flex items-center justify-center">
+          <h1 className="text-3xl font-semibold items-center justify-center">
+            Read what the <span className="text-[#28D08A]">customers </span> are
+            saying about us.
+          </h1>
+        </div>
+
+        <div>
+          <div className="flex flex-col items-start justify-center h-[230px]">
+            <p>
+              “We struggled for years to find an IT company that we could trust.
+              While others would try to sell us IT solutions. We actually took
+              the time to listen to what made us unique as a business.”
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
